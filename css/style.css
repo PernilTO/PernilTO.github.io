@@ -74,3 +74,40 @@ html body figure img{
     margin-left: 30px;
     margin-right: 30px;
 }
+
+
+figure.matriz {
+    width: 550px;
+    margin: 30px auto;
+}
+
+figure.familia {
+    width: 275px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+
+.historia-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.historia-texto {
+    text-align: justify;
+}
+
+
+h2#diferenciais {
+    clear: both;
+}
+
+
+@media (max-width: 768px) {
+    figure.matriz,
+    figure.familia {
+        width: 100%;
+        float: none;
+        margin: 20px auto;
+    }
+}
